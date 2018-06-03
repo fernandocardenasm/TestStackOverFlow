@@ -15,8 +15,7 @@ class HomeViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
+
         
         view.backgroundColor = .white
         self.navigationItem.title = "Top Question"

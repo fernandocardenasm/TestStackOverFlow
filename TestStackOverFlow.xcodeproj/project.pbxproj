@@ -20,6 +20,7 @@
 		ED2A921620A99C79005329AA /* URLQueryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2A921520A99C79005329AA /* URLQueryEncoder.swift */; };
 		EDB8CFC020A9DA930072FB77 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFBF20A9DA930072FB77 /* Extensions.swift */; };
 		EDB8CFC220AB252D0072FB77 /* NewHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB8CFC120AB252D0072FB77 /* NewHomeView.swift */; };
+		EDD16CB420C44F4D00938DB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD16CB320C44F4D00938DB0 /* ViewController.swift */; };
 		EDDC37E320A7433D00CC189A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC37E220A7433D00CC189A /* AppDelegate.swift */; };
 		EDDC37E520A7433D00CC189A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC37E420A7433D00CC189A /* HomeViewController.swift */; };
 		EDDC37EA20A7433F00CC189A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDC37E920A7433F00CC189A /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		ED2A921520A99C79005329AA /* URLQueryEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLQueryEncoder.swift; sourceTree = "<group>"; };
 		EDB8CFBF20A9DA930072FB77 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EDB8CFC120AB252D0072FB77 /* NewHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHomeView.swift; sourceTree = "<group>"; };
+		EDD16CB320C44F4D00938DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDDC37DF20A7433D00CC189A /* TestStackOverFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestStackOverFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDC37E220A7433D00CC189A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDDC37E420A7433D00CC189A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				ED2A91FE20A99A7A005329AA /* Models */,
 				EDDC37E220A7433D00CC189A /* AppDelegate.swift */,
 				EDDC37E420A7433D00CC189A /* HomeViewController.swift */,
+				EDD16CB320C44F4D00938DB0 /* ViewController.swift */,
 				EDDC37E920A7433F00CC189A /* Assets.xcassets */,
 				EDDC37EE20A7433F00CC189A /* Info.plist */,
 				ED2A920F20A99BD1005329AA /* StackAPIClient.swift */,
@@ -220,6 +223,7 @@
 				EDDC37E320A7433D00CC189A /* AppDelegate.swift in Sources */,
 				ED2A920620A99AF2005329AA /* APIClient.swift in Sources */,
 				EDB8CFC020A9DA930072FB77 /* Extensions.swift in Sources */,
+				EDD16CB420C44F4D00938DB0 /* ViewController.swift in Sources */,
 				EDB8CFC220AB252D0072FB77 /* NewHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

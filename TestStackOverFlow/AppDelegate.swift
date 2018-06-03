@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         let rootController = UINavigationController(rootViewController: HomeViewController())
+//        let rootController = UINavigationController(rootViewController: ViewController())
         window?.rootViewController = rootController
         
         return true

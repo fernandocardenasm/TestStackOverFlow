@@ -57,6 +57,17 @@ public class NewHomeView: UIView {
         return textField
     }()
     
+    let sepatorViewFoot: UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor(red: 230/255, green: 230/255, blue: 230/255, alpha: 1)
+        return view
+    }()
+    
+    let halfScreenView: UIView = {
+       let view = UIView()
+        view.backgroundColor = .blue
+        return view
+    }()
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -71,6 +82,8 @@ public class NewHomeView: UIView {
         addSubview(ownerImageView)
         addSubview(ownerNameLabel)
         addSubview(ownerReputationTextField)
+        addSubview(sepatorViewFoot)
+        addSubview(halfScreenView)
         
         
         let widthView = 50
@@ -100,6 +113,16 @@ public class NewHomeView: UIView {
 
         
         ownerReputationTextField.anchor(top: ownerNameLabel.bottomAnchor, leading: ownerImageView.trailingAnchor, trailing: safeAreaLayoutGuide.trailingAnchor, bottom: nil, padding: .init(top: 0, left: 14, bottom: 0, right: 14), size: .init(width: 0, height: 0))
+        
+        sepatorViewFoot.anchor(top: ownerLabel.bottomAnchor, leading: safeAreaLayoutGuide.leadingAnchor, trailing: safeAreaLayoutGuide.trailingAnchor, bottom: nil, padding: .init(top: 14, left: 14, bottom: 0, right: 14), size: .init(width: 0, height: 1))
+        
+        
+        
+        halfScreenView.translatesAutoresizingMaskIntoConstraints = false
+        halfScreenView.topAnchor.constraint(equalTo: sepatorViewFoot.bottomAnchor).isActive = true
+        halfScreenView.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor).isActive = true
+        halfScreenView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.5).isActive = true
+        halfScreenView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.2).isActive = true
         
         
     }
