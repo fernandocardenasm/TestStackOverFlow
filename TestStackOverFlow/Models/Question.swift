@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct Question: Decodable {
+    
+    var tags: [String]?
+    var owner: Owner?
+    var score: Int?
+    var creationDate: Date?
+    
+}

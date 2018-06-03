@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public enum StackError: Error {
+    case decoding
+    case encoding
+    case server(message: String)
+}

@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Owner: Decodable {
+    var reputation: Int?
+    var profileImage: URL?
+    var displayName: String?
+}

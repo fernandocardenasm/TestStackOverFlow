@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct DataContainer<Results: Decodable>: Decodable {
+    let items: Results
+}
